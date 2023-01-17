@@ -1,1 +1,3 @@
-worker: chmod a+x start; ./start
+#!/bin/bash
+
+exec python3 -m loader "$@"
